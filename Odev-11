@@ -1,0 +1,6 @@
+SELECT DISTINCT first_name FROM actor union SELECT DISTINCT first_name FROM customer;
+SELECT first_name FROM actor UNION all SELECT first_name FROM customer;
+SELECT DISTINCT first_name FROM actor intersect SELECT DISTINCT first_name FROM customer;
+SELECT first_name FROM actor INTERSECT all SELECT first_name FROM customer;
+SELECT DISTINCT first_name FROM actor except SELECT DISTINCT first_name FROM customer;
+SELECT first_name FROM actor EXCEPT all SELECT first_name FROM customer;
